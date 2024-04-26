@@ -17,5 +17,5 @@ useSeoMeta({
 </script>
 
 <template>
-  <div></div>
+  <Header />
 </template>
