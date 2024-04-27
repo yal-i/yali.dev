@@ -34,7 +34,7 @@ const links = [
       </span>
       <UHorizontalNavigation
         :links="links"
-        class="w-max mr-5 hidden sm:flex"
+        class="w-max mr-5 hidden md:flex"
         :ui="{
           base: 'text-md',
         }"
