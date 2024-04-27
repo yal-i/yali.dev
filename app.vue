@@ -21,4 +21,5 @@ useSeoMeta({
   <About />
   <Projects />
   <Skills />
+  <Resume />
 </template>
