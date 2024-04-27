@@ -19,4 +19,5 @@ useSeoMeta({
 <template>
   <Header />
   <About />
+  <Projects />
 </template>
