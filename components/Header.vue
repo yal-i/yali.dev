@@ -13,8 +13,8 @@ const links = [
     to: "#skills",
   },
   {
-    label: "Geçmiş",
-    to: "#history",
+    label: "Özgeçmiş",
+    to: "#resume",
   },
   {
     label: "İletişim",
