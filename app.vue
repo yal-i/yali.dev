@@ -22,4 +22,6 @@ useSeoMeta({
   <Projects />
   <Skills />
   <Resume />
+  <Contact />
+  <UNotifications />
 </template>

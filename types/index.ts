@@ -5,3 +5,11 @@ export type ProjectProps = {
   href: string;
   type: "web" | "mobile";
 };
+
+export type ContactProps = {
+  name: string;
+  surname: string;
+  email: string;
+  subject: string;
+  message: string;
+};
