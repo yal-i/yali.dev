@@ -49,7 +49,7 @@
       />
       <UCard
         :ui="{ background: '', body: { padding: 'px-5 py-5 sm:p-5' } }"
-        class="absolute top-0 left-0 backdrop-blur-3xl rotate-12 group-hover:rotate-0 transition-all group-hover:top-[22.5rem] group-hover:left-10"
+        class="absolute top-0 left-0 backdrop-blur-3xl rotate-12 group-hover:rotate-0 transition-all group-hover:bottom-10 duration-1000 group-hover:top-auto group-hover:left-10"
       >
         <UIcon
           name="mdi:hand-wave-outline"
@@ -70,7 +70,7 @@
       </UCard>
       <UCard
         :ui="{ background: '', body: { padding: 'px-5 py-5 sm:p-5' } }"
-        class="absolute bottom-0 right-0 backdrop-blur-3xl -rotate-12 group-hover:rotate-0 group-hover:bottom-10 group-hover:right-10 transition-all"
+        class="absolute bottom-0 right-0 backdrop-blur-3xl -rotate-12 group-hover:rotate-0 group-hover:bottom-10 group-hover:right-10 transition-all duration-1000"
       >
         <UIcon name="ph:code-bold" size="50" />
       </UCard>
