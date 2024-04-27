@@ -23,5 +23,6 @@ useSeoMeta({
   <Skills />
   <Resume />
   <Contact />
+  <Footer />
   <UNotifications />
 </template>
