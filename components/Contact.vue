@@ -83,7 +83,7 @@ const socials = [
 
 <template>
   <UContainer class="mt-16 grid md:grid-cols-2 gap-10" id="contact">
-    <UCard :ui="{ background: '' }">
+    <UCard :ui="{ background: '' }" v-motion-slide-visible-left>
       <UForm
         @submit="onSubmit"
         class="space-y-4"
@@ -128,7 +128,7 @@ const socials = [
         </UButton>
       </UForm>
     </UCard>
-    <div>
+    <div v-motion-slide-visible-right>
       <NuxtLink
         class="flex items-center gap-5 duration-500 transition-colors hover:bg-zinc-900 p-5 rounded-full"
         v-for="({ href, icon, name, value }, i) in socials"
