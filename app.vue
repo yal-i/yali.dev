@@ -7,7 +7,7 @@ useHead({
     class: "bg-black",
   },
   htmlAttrs: {
-    class: "scroll-smooth scroll-pt-40",
+    class: "scroll-smooth scroll-pt-52",
   },
 });
 
