@@ -37,7 +37,7 @@ const projects = await client.getAll();
         }"
       >
         <template #item="{ item }">
-          <div class="grid grid-cols-2 mt-10 gap-10">
+          <div class="grid lg:grid-cols-2 mt-10 gap-10">
             <NuxtLink
               class="transition-shadow duration-500 hover:shadow-[0_0_50px_rgba(255,255,255,.1)] group overflow-hidden relative rounded-2xl border-2 border-zinc-900"
               v-for="(
