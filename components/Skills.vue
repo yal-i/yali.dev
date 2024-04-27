@@ -36,7 +36,7 @@ const skills = [
 </script>
 
 <template>
-  <UContainer class="mt-16 flex flex-wrap gap-10 relative">
+  <UContainer class="mt-16 flex flex-wrap gap-10 relative" id="skills">
     <UCard
       class="w-40 backdrop-blur-3xl rounded-2xl group hover:shadow-[0_0_20px_rgba(255,255,255,.1)] transition-all duration-500"
       v-for="({ name, icon }, i) in skills"

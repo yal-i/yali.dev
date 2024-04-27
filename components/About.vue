@@ -1,5 +1,8 @@
 <template>
-  <UContainer class="mt-28 flex flex-wrap justify-between items-center gap-20">
+  <UContainer
+    class="mt-28 flex flex-wrap justify-between items-center gap-20"
+    id="about"
+  >
     <div class="m-auto xl:m-0">
       <h1 class="font-bold text-2xl mb-2 text-primary">
         Merhaba, ben Yusuf Ali.

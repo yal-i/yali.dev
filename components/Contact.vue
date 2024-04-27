@@ -82,7 +82,7 @@ const socials = [
 </script>
 
 <template>
-  <UContainer class="mt-16 grid md:grid-cols-2 gap-10">
+  <UContainer class="mt-16 grid md:grid-cols-2 gap-10" id="contact">
     <UCard :ui="{ background: '' }">
       <UForm
         @submit="onSubmit"

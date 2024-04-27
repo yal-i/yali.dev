@@ -21,7 +21,7 @@ const projects = await client.getAll();
 </script>
 
 <template>
-  <div class="mt-52 bg-zinc-950 py-16">
+  <div class="mt-52 bg-zinc-950 py-16" id="projects">
     <UContainer>
       <UTabs
         :items="items"
