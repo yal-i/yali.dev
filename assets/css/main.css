@@ -1,0 +1,9 @@
+h1 {
+  @apply bg-gradient-to-r from-white to-zinc-500 bg-clip-text py-1 text-transparent;
+}
+html {
+  @apply scroll-smooth scroll-pt-52;
+}
+body {
+  @apply bg-black;
+}

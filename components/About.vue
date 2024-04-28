@@ -7,11 +7,7 @@
       <h1 class="font-bold text-2xl mb-2 text-primary">
         Merhaba, ben Yusuf Ali.
       </h1>
-      <h1
-        class="font-extrabold text-5xl bg-gradient-to-r from-white to-zinc-500 bg-clip-text py-1 text-transparent"
-      >
-        Front-end Developer
-      </h1>
+      <h1 class="font-extrabold text-5xl">Front-end Developer</h1>
       <div class="mt-10 flex items-center gap-5">
         <UButton
           icon="material-symbols:download"
