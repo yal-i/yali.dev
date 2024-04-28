@@ -68,7 +68,7 @@ const projects = await client.getAll();
                 }"
               >
                 <div class="flex items-center justify-between mb-3">
-                  <h1 class="text-xl font-semibold">
+                  <h1 class="text-xl font-bold">
                     {{ name }}
                   </h1>
                   <UIcon name="gridicons:external" size="25" />
