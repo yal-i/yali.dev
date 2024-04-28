@@ -82,7 +82,8 @@ const socials = [
 </script>
 
 <template>
-  <UContainer class="mt-16 grid md:grid-cols-2 gap-10" id="contact">
+  <h1 class="text-4xl font-bold text-center mt-16 mb-10">İletişim</h1>
+  <UContainer class="grid md:grid-cols-2 gap-10" id="contact">
     <UCard :ui="{ background: '' }" v-motion-slide-visible-left>
       <UForm
         @submit="onSubmit"

@@ -34,6 +34,7 @@ const tableClass = "bg-black rounded-2xl ring-1 ring-gray-800";
 
 <template>
   <div class="mt-16 bg-zinc-950 py-16" id="resume">
+    <h1 class="text-4xl font-bold text-center mb-10">Özgeçmişim</h1>
     <UContainer class="grid xl:grid-cols-2 gap-10">
       <UTable :rows="education" :class="tableClass" />
       <UTable :rows="experience" :class="tableClass" />

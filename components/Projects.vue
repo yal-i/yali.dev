@@ -23,6 +23,7 @@ const projects = await client.getAll();
 <template>
   <div class="mt-52 bg-zinc-950 py-16" id="projects">
     <UContainer>
+      <h1 class="text-4xl font-bold text-center mb-10">Projelerim</h1>
       <UTabs
         :items="items"
         :ui="{
