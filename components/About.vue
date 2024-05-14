@@ -14,6 +14,7 @@
           label="CV'yi İndir"
           variant="soft"
           size="xl"
+          to="/Yusuf-Ali-Tangöz-Resume.pdf"
         />
         <UButton
           to="https://github.com/yusufalitangoz"
