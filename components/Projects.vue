@@ -59,12 +59,12 @@ const projects = await client.getAll();
                 :src="image"
               />
               <UCard
-                class="absolute hidden group-hover:block backdrop-blur-3xl right-10 left-10"
+                class="absolute hidden group-hover:block backdrop-blur-sm right-10 left-10"
                 :initial="{ bottom: -100 }"
                 :visible="{ bottom: 0 }"
                 v-motion
                 :ui="{
-                  background: '',
+                  background: 'dark:bg-[rgba(0,0,0,.8)]',
                   rounded: 'rounded-none rounded-t-xl',
                 }"
               >
