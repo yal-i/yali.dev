@@ -27,6 +27,12 @@ const experience = [
     "Başlangıç Yılı": "2022",
     "Bitiş Yılı": "2022",
   },
+  {
+    Şirket: "Hayying Danışmanlık",
+    Pozisyon: "Software Developer",
+    "Başlangıç Yılı": "2024",
+    "Bitiş Yılı": "-",
+  },
 ];
 
 const tableClass = "bg-black rounded-2xl ring-1 ring-gray-800";
