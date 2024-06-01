@@ -8,7 +8,7 @@ const projects = await client.getAll();
 <template>
   <div class="mt-52 bg-zinc-950 py-16" id="projects">
     <UContainer>
-      <h1 class="text-4xl font-bold text-center mb-10">Projelerim</h1>
+      <h1 class="text-4xl font-bold text-center mb-10">Web Siteler</h1>
       <div class="grid lg:grid-cols-2 mt-10 gap-10">
         <NuxtLink
           class="transition-shadow duration-500 hover:shadow-[0_0_50px_rgba(255,255,255,.1)] group overflow-hidden relative rounded-2xl border-2 border-zinc-900"
@@ -22,7 +22,7 @@ const projects = await client.getAll();
           :key="i"
         >
           <img
-            class="group-hover:blur-[2px] group-hover:scale-110 duration-300 transition-all rounded-xl"
+            class="group-hover:blur-[2px] group-hover:scale-110 duration-300 transition-all rounded-xl h-full"
             :src="image"
           />
           <UCard
