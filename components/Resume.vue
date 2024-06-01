@@ -31,7 +31,7 @@ const experience = [
     Şirket: "Hayying Danışmanlık",
     Pozisyon: "Software Developer",
     "Başlangıç Yılı": "2024",
-    "Bitiş Yılı": "-",
+    "Bitiş Yılı": "2024",
   },
 ];
 
