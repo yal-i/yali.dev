@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const skills = [
   {
+    name: "C#",
+    icon: "devicon:csharp",
+  },
+  {
     name: "HTML",
     icon: "skill-icons:html",
   },
