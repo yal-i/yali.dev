@@ -33,6 +33,12 @@ const experience = [
     "Başlangıç Yılı": "2024",
     "Bitiş Yılı": "2024",
   },
+  {
+    Şirket: "Vorinfo",
+    Pozisyon: "Front-End Developer",
+    "Başlangıç Yılı": "2024",
+    "Bitiş Yılı": "-",
+  },
 ];
 
 const tableClass = "bg-black rounded-2xl ring-1 ring-gray-800";
