@@ -35,11 +35,11 @@ const experience = [
   },
 ];
 
-const tableClass = "bg-black rounded-2xl ring-1 ring-gray-800";
+const tableClass = "rounded-2xl ring-1 ring-gray-300 bg-white";
 </script>
 
 <template>
-  <div class="mt-16 bg-zinc-950 py-16" id="resume">
+  <div class="mt-16 bg-gray-100 py-16" id="resume">
     <h1 class="text-4xl font-bold text-center mb-10">Özgeçmişim</h1>
     <UContainer class="grid xl:grid-cols-2 gap-10">
       <UTable :rows="education" :class="tableClass" />

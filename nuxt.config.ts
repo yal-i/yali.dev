@@ -5,4 +5,7 @@ export default defineNuxtConfig({
     supabaseUrl: process.env.SUPABASE_URL,
     supabaseKey: process.env.SUPABASE_KEY,
   },
+  colorMode: {
+    preference: "light",
+  },
 });

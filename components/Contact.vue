@@ -135,14 +135,14 @@ const socials = [
     </UCard>
     <div>
       <NuxtLink
-        class="flex items-center gap-5 duration-500 transition-colors hover:bg-zinc-900 p-5 rounded-full"
+        class="flex items-center gap-5 duration-500 transition-colors hover:bg-gray-200 p-5 rounded-full"
         v-for="({ href, icon, name, value }, i) in socials"
         target="_blank"
         :key="i"
         :href
       >
         <UIcon
-          class="bg-white text-black p-3 w-14 h-14 rounded-full"
+          class="bg-gray-100 text-black p-3 w-14 h-14 rounded-full"
           :name="icon"
         />
         <div>
