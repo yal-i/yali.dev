@@ -1,8 +1,5 @@
 <script setup lang="ts">
-import ProjectClient from "~/clients/project";
-
-const client = new ProjectClient();
-const projects = await client.getAll();
+const { data } = await useFetch("/api/project");
 </script>
 
 <template>
@@ -12,7 +9,7 @@ const projects = await client.getAll();
       <div class="grid lg:grid-cols-2 mt-10 gap-10">
         <NuxtLink
           class="transition-shadow duration-500 hover:shadow-[0_0_50px_rgba(255,255,255,.1)] group overflow-hidden relative rounded-2xl border border-gray-300"
-          v-for="({ description, href, image, name }, i) in projects"
+          v-for="({ description, href, image, name }, i) in data"
           :initial="{ opacity: 0, bottom: -30 }"
           :visible="{ opacity: 1, bottom: 0 }"
           :delay="i * 200"

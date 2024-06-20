@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import type { FormSubmitEvent } from "#ui/types";
-import ContactClient from "~/clients/contact";
-import type { ContactProps } from "~/types";
 import { z } from "zod";
 
 const schema = z.object({
@@ -40,15 +38,20 @@ const state = reactive({
   message: undefined,
 });
 
-const client = new ContactClient();
 const { add } = useToast();
 const loading = ref(false);
 
-async function onSubmit(event: FormSubmitEvent<ContactProps>) {
+type Scheme = z.infer<typeof schema>;
+
+async function onSubmit(event: FormSubmitEvent<Scheme>) {
   loading.value = true;
-  const status = await client.send(event.data);
+  const { status } = await useFetch("/api/contact", {
+    method: "POST",
+    body: event.data,
+  });
   add({
-    title: status === "error" ? "Bir hata oluştu!" : "Mesajınız gönderildi.",
+    title:
+      status.value === "error" ? "Bir hata oluştu!" : "Mesajınız gönderildi.",
   });
   loading.value = false;
   Object.assign(state, {

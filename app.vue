@@ -5,12 +5,14 @@ useSeoMeta({
 </script>
 
 <template>
-  <Header />
-  <About />
-  <Projects />
-  <Skills />
-  <Resume />
-  <Contact />
-  <Footer />
-  <UNotifications />
+  <main class="scroll-smooth scroll-pt-52">
+    <Header />
+    <About />
+    <Projects />
+    <Skills />
+    <Resume />
+    <Contact />
+    <Footer />
+    <UNotifications />
+  </main>
 </template>
