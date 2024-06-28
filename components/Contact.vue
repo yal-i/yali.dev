@@ -48,6 +48,7 @@ async function onSubmit(event: FormSubmitEvent<Scheme>) {
   const { status } = await useFetch("/api/contact", {
     method: "POST",
     body: event.data,
+    watch: false,
   });
   add({
     title:
