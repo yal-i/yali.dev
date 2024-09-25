@@ -14,10 +14,10 @@
           label="CV'yi İndir"
           size="xl"
           color="gray"
-          to="/Yusuf-Ali-Tangöz-Resume.pdf"
+          to="/Yusuf_Ali_TANGÖZ_Resume.pdf"
         />
         <UButton
-          to="https://github.com/yusufalitangoz"
+          to="https://github.com/yal-i"
           icon="mdi:github"
           target="_blank"
           color="black"

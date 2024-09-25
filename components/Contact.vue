@@ -64,18 +64,12 @@ async function onSubmit(event: FormSubmitEvent<Scheme>) {
   });
 }
 
-const socials = [
+const accounts = [
   {
     name: "E-Posta",
     icon: "ic:baseline-email",
     value: "tangozyusufali@gmail.com",
     href: "mailto:tangozyusufali@gmail.com",
-  },
-  {
-    name: "Instagram",
-    icon: "ri:instagram-fill",
-    value: "yusufalitangoz",
-    href: "https://www.instagram.com/yusufalitangoz/",
   },
   {
     name: "Discord",
@@ -140,7 +134,7 @@ const socials = [
     <div>
       <NuxtLink
         class="flex items-center gap-5 duration-500 transition-colors hover:bg-gray-200 p-5 rounded-full"
-        v-for="({ href, icon, name, value }, i) in socials"
+        v-for="({ href, icon, name, value }, i) in accounts"
         target="_blank"
         :key="i"
         :href
