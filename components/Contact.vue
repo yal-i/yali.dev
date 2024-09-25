@@ -72,6 +72,12 @@ const accounts = [
     href: "mailto:tangozyusufali@gmail.com",
   },
   {
+    name: "Instagram",
+    icon: "ri:instagram-fill",
+    value: "yusufalitangoz",
+    href: "https://www.instagram.com/yusufalitangoz/",
+  },
+  {
     name: "Discord",
     icon: "ic:baseline-discord",
     value: "y.ali",

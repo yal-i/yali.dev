@@ -17,7 +17,7 @@
           to="/Yusuf_Ali_TANGÖZ_Resume.pdf"
         />
         <UButton
-          to="https://github.com/yal-i"
+          to="https://github.com/yusufalitangoz"
           icon="mdi:github"
           target="_blank"
           color="black"
